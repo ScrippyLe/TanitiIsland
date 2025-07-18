@@ -1,0 +1,11 @@
+<svg class="menuIcon" onclick="openMenu()" width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                <rect x="5" y="5" width="15" height="15" rx="2" fill="#FFADAD" />
+                <rect x="22.5" y="5" width="15" height="15" rx="2" fill="#FFD6A5" />
+                <rect x="40" y="5" width="15" height="15" rx="2" fill="#FDFFB6" />
+                <rect x="5" y="22.5" width="15" height="15" rx="2" fill="#CAFFBF" />
+                <rect x="22.5" y="22.5" width="15" height="15" rx="2" fill="#9BF6FF" />
+                <rect x="40" y="22.5" width="15" height="15" rx="2" fill="#A0C4FF" />
+                <rect x="5" y="40" width="15" height="15" rx="2" fill="#BDB2FF" />
+                <rect x="22.5" y="40" width="15" height="15" rx="2" fill="#FFC6FF" />
+                <rect x="40" y="40" width="15" height="15" rx="2" fill="#FFADAD" />
+            </svg>
