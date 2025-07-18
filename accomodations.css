@@ -64,7 +64,7 @@ nav a:nth-child(3):hover {
 }
 
 nav a:nth-child(4) {
-    background-color: #CAFFBF;
+    color: #CAFFBF;
 }
 
 nav a:nth-child(4):hover {
@@ -72,7 +72,7 @@ nav a:nth-child(4):hover {
 }
 
 nav a:nth-child(5) {
-    color: #9BF6FF;
+    background-color: #9BF6FF;
 }
 
 nav a:nth-child(5):hover {
@@ -104,15 +104,16 @@ nav a:nth-child(8):hover {
 }
 
 nav a:hover,
-nav a:nth-child(5) {
+nav a:nth-child(4) {
     text-transform: uppercase;
     background-color: #171621;
 }
 
 main {
     box-sizing: border-box;
-    background-image: url(images/hotelFiltered.jpg);
-    background-size: 100% 100%;
+    background-image: url(images/bedandbreakfastCropped.jpg);
+    background-size: 80.5% 100%;
+    background-position: right;
     width: 85%;
     height: 100%;
     display: flex;
@@ -121,10 +122,10 @@ main {
 
 .text {
     box-sizing: border-box;
-    width: 35%;
+    width: 30.4%;
     height: 100%;
-    background: linear-gradient(to right, rgba(23, 22, 33, 1),rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
-    color: #9BF6FF;
+    background: linear-gradient(to right, rgba(23, 22, 33, 1), rgba(23, 22, 33, 1), rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
+    color: #CAFFBF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,9 +136,10 @@ main {
 }
 
 h1 {
-    font-size: 2.899vw;
+    font-size: 2.7vw;
     padding-bottom: 2vw;
 }
+
 p {
-    font-size: 1.6vw;
+    font-size: 1.49vw;
 }
