@@ -29,6 +29,24 @@ menuIcon.addEventListener('click', function () {
     }
 });
 
+// menuIcon.addEventListener('mouseenter', function () {
+//         menuNav.style.display = 'flex';
+//         menuIcon.classList.add('menuOpenStyles');
+//         text.classList.add('menuOpenStyles');
+// });
+// menuIcon.addEventListener('mouseleave', function () {
+//         menuNav.style.display = 'none';
+//         img1.style.display = 'none';
+//         img2.style.display = 'none';
+//         img3.style.display = 'none';
+//         menuIcon.classList.remove('menuOpenStyles');
+//         text.classList.remove('menuOpenStyles');
+// });
+
+
+
+
+
 menuNav1.addEventListener('mouseenter', function () {
     img1.style.display = 'block';
 });
