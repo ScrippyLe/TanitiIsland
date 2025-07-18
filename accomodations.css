@@ -200,21 +200,21 @@ aside {
 }
 
 #menuNav1 {
-    color: #A0C4FF;
+    color: #9BF6FF;
 }
 #menuNav1:hover {
-    background-color: #efa3af;
+    background-color: #c3d4a0;
     color: #171621;
 }
 #menuNav2 {
-    color: #BDB2FF;
+    color: #A0C4FF;
 }
 #menuNav2:hover {
     color: #171621;
-    background-color: #31c2c5;
+    background-color: #37bada;
 }
 #menuNav3 {
-    color: #FFC6FF;
+    color: #BDB2FF;
 }
 #menuNav3:hover {
     color: #171621;
@@ -225,7 +225,7 @@ aside {
 .img2,
 .img3 {
     height: 90vh;
-    width: 100%;
+    width: 59.2vw;
     background-size: cover;
     background-position: center;
     text-decoration: none;
