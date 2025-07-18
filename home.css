@@ -142,6 +142,8 @@ p {
     font-size: 1.4vw;
 }
 
+
+
 aside {
     display: flex;
     flex-direction: column;
@@ -160,7 +162,7 @@ aside {
     cursor: pointer;
 }
 
-.menuOpenStyles {
+.text.menuOpenStyles, .menuIcon.menuOpenStyles {
     border-radius: 0 !important;
     background-color: #171621;
 }
@@ -181,9 +183,9 @@ aside {
     width: 90%;
 }
 
-#rainforestNav,
-#beachesNav,
-#volcanoNav {
+#menuNav1,
+#menuNav2,
+#menuNav3 {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -197,31 +199,31 @@ aside {
     margin: 0;
 }
 
-#rainforestNav {
-    color: #FFADAD;
+#menuNav1 {
+    color: #A0C4FF;
 }
-#rainforestNav:hover {
-    background-color: #FFADAD;
+#menuNav1:hover {
+    background-color: #efa3af;
     color: #171621;
 }
-#beachesNav {
-    color: #CAFFBF;
-}
-#beachesNav:hover {
-    color: #171621;
-    background-color: #CAFFBF;
-}
-#volcanoNav {
+#menuNav2 {
     color: #BDB2FF;
 }
-#volcanoNav:hover {
+#menuNav2:hover {
     color: #171621;
-    background-color: #BDB2FF;
+    background-color: #31c2c5;
+}
+#menuNav3 {
+    color: #FFC6FF;
+}
+#menuNav3:hover {
+    color: #171621;
+    background-color: #eca6dd;
 }
 
-.flowerImg,
-.flamingoImg,
-.volcanoImg {
+.img1,
+.img2,
+.img3 {
     height: 90vh;
     width: 100%;
     background-size: cover;
