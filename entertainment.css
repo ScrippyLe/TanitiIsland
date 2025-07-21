@@ -229,7 +229,8 @@ aside {
 #menuNav2:hover,
 #menuNav3:hover,
 #menuNav4:hover,
-#menuNav5:hover{
+#menuNav5:hover,
+#menuNav6:hover{
     color: #171621;
 }
 
@@ -253,9 +254,9 @@ aside {
     color: #CAFFBF;
 }
 
-/* #menuNav6 {
+#menuNav6 {
     color: #9BF6FF;
-} */
+}
 
 
 
@@ -264,8 +265,7 @@ aside {
 .img3,
 .img4,
 .img5,
-.img6,
-.img7 {
+.img6 {
     height: 90%;
     width: 100%;
     background-size: cover;

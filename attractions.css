@@ -111,7 +111,7 @@ nav a:nth-child(8) {
 
 main {
     box-sizing: border-box;
-    background-image: url(images/beach2.avif);
+    background-image: url(images/volcano.avif);
     background-size: 100% 100%;
     width: 85%;
     height: 100%;
@@ -201,7 +201,7 @@ aside {
 }
 
 #menuNav1 {
-    color: #A0C4FF;
+    color: #FFADAD;
 }
 #menuNav1:hover {
     /* background-color: #efa3af; */
@@ -209,7 +209,7 @@ aside {
     color: #171621;
 }
 #menuNav2 {
-    color: #BDB2FF;
+    color: #FFD6A5;
 }
 #menuNav2:hover {
     color: #171621;
@@ -217,7 +217,7 @@ aside {
     background-color: #FFC6FF;
 }
 #menuNav3 {
-    color: #FFC6FF;
+    color: #FDFFB6;
 }
 #menuNav3:hover {
     color: #171621;

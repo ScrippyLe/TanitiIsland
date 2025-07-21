@@ -15,7 +15,7 @@ const img2 = document.querySelector('.img2');
 const img3 = document.querySelector('.img3');
 const img4 = document.querySelector('.img4');
 const img5 = document.querySelector('.img5');
-// const img6 = document.querySelector('.img6');
+const img6 = document.querySelector('.img6');
 
 let menuOpen = false;
 
@@ -32,7 +32,7 @@ menuIcon.addEventListener('click', function () {
         img3.style.display = 'none';
         img4.style.display = 'none';
         img5.style.display = 'none';
-        // img6.style.display = 'none';
+        img6.style.display = 'none';
         menuIcon.classList.remove('menuOpenStyles');
         text.classList.remove('menuOpenStyles');
     }
@@ -71,9 +71,9 @@ menuNav5.addEventListener('mouseenter', function () {
 menuNav5.addEventListener('mouseleave', function () {
     img5.style.display = 'none';
 });
-// menuNav6.addEventListener('mouseenter', function () {
-//     img6.style.display = 'block';
-// });
-// menuNav6.addEventListener('mouseleave', function () {
-//     img6.style.display = 'none';
-// });
+menuNav6.addEventListener('mouseenter', function () {
+    img6.style.display = 'block';
+});
+menuNav6.addEventListener('mouseleave', function () {
+    img6.style.display = 'none';
+});
