@@ -111,7 +111,7 @@ nav a:nth-child(8) {
 
 main {
     box-sizing: border-box;
-    background-image: url(images/volcano.avif);
+    background-image: url(images/beach2.avif);
     background-size: 100% 100%;
     width: 85%;
     height: 100%;
@@ -121,7 +121,7 @@ main {
 
 .text {
     box-sizing: border-box;
-    width: 38%;
+    width: 35%;
     height: 100%;
     background: linear-gradient(to right, rgba(23, 22, 33, 1), rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
     color: #FFC6FF;
@@ -143,6 +143,95 @@ p {
     font-size: 1.5vw;
 }
 
-span {
-    font-weight: bolder;
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+}
+
+.menuIcon {
+    background-color: #171621;
+    padding: .5vw;
+    border-radius: .8vw 0 0 .8vw;
+    height: 100%;
+    width: 10%;
+    box-sizing: border-box;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+.text.menuOpenStyles, .menuIcon.menuOpenStyles {
+    border-radius: 0 !important;
+    background-color: #171621;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-between; */
+    height: 10%;
+    box-sizing: border-box;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 90%;
+}
+
+#menuNav1,
+#menuNav2,
+#menuNav3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: #171621;
+    padding: 0;
+    margin: 0;
+}
+
+#menuNav1 {
+    color: #A0C4FF;
+}
+#menuNav1:hover {
+    /* background-color: #efa3af; */
+    background-color: #FFC6FF;
+    color: #171621;
+}
+#menuNav2 {
+    color: #BDB2FF;
+}
+#menuNav2:hover {
+    color: #171621;
+    /* background-color: #31c2c5; */
+    background-color: #FFC6FF;
+}
+#menuNav3 {
+    color: #FFC6FF;
+}
+#menuNav3:hover {
+    color: #171621;
+    /* background-color: #eca6dd; */
+        background-color: #FFC6FF;
+
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
 }

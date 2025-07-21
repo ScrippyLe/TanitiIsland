@@ -122,7 +122,7 @@ main {
 
 .text {
     box-sizing: border-box;
-    width: 37%;
+    width: 35%;
     height: 100%;
     background: linear-gradient(to right, rgba(23, 22, 33, 1), rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
     color: #A0C4FF;
@@ -141,4 +141,98 @@ h1 {
 }
 p {
     font-size: 1.4vw;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 65%;
+}
+
+.menuIcon {
+    background-color: #171621;
+    padding: .5vw;
+    border-radius: .8vw 0 0 .8vw;
+    box-sizing: border-box;
+    width: 9%;
+    height: 100%;
+}
+
+.menuIcon:hover {
+    cursor: pointer;
+}
+
+.text.menuOpenStyles, .menuIcon.menuOpenStyles {
+    border-radius: 0 !important;
+    background-color: #171621;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 10%;
+}
+
+.menuNav {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 91%;
+}
+
+#menuNav1,
+#menuNav2,
+#menuNav3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4vw;
+    font-weight: bold;
+    background-color: #171621;
+    padding: 0;
+    margin: 0;
+}
+
+#menuNav1 {
+    color: #BDB2FF;
+}
+#menuNav1:hover {
+    /* background-color: #abd7e4; */
+    color: #171621;
+    background-color: #A0C4FF;
+}
+#menuNav2 {
+    color: #FFC6FF;
+}
+#menuNav2:hover {
+    color: #171621;
+    /* background-color: #126e8c; */
+        background-color: #A0C4FF;
+
+}
+#menuNav3 {
+    color: #FFADAD;
+}
+#menuNav3:hover {
+    color: #171621;
+    /* background-color: #eca6dd; */
+        background-color: #A0C4FF;
+
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
 }
