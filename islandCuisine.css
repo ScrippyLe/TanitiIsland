@@ -112,8 +112,8 @@ nav a:nth-child(3) {
 main {
     box-sizing: border-box;
     background-image: url(images/food3.avif);
-    background-size: contain;
-    /* background-repeat: no-repeat; */
+    background-size: 84% 100%;
+    background-repeat: no-repeat;
     background-position: right;
     width: 85%;
     height: 100%;
@@ -140,6 +140,7 @@ h1 {
     font-size: 1.98vw;
     padding-bottom: 2vw;
 }
+
 p {
     font-size: 1.38vw;
 }
@@ -152,7 +153,8 @@ aside {
     width: 78.2%;
 }
 
-.menuIcon, .closeIcon {
+.menuIcon,
+.closeIcon {
     background-color: #171621;
     padding: .5vw;
     border-radius: .8vw 0 0 .8vw;
@@ -161,12 +163,15 @@ aside {
     box-sizing: border-box;
 }
 
-.menuIcon:hover, .closeIcon:hover {
+.menuIcon:hover,
+.closeIcon:hover {
     cursor: pointer;
     /* background-color: #FFADAD; */
 }
 
-.text.menuOpenStyles, .menuIcon.menuOpenStyles, .closeIcon.menuOpenStyles {
+.text.menuOpenStyles,
+.menuIcon.menuOpenStyles,
+.closeIcon.menuOpenStyles {
     border-radius: 0 !important;
     background-color: #171621;
 }
@@ -219,7 +224,7 @@ aside {
 #menuNav2:hover {
     color: #171621;
     /* background-color: #248dc4; */
-        background-color: #FDFFB6;
+    background-color: #FDFFB6;
 
 }
 
@@ -230,7 +235,7 @@ aside {
 #menuNav3:hover {
     color: #171621;
     /* background-color: #fd9f8e; */
-        background-color: #FDFFB6;
+    background-color: #FDFFB6;
 
 }
 
@@ -239,7 +244,7 @@ aside {
 .img3 {
     height: 90%;
     width: 100%;
-    background-size: contain;
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
     text-decoration: none;
 }
