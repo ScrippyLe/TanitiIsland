@@ -18,8 +18,8 @@ body {
 nav {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 15vw;
+    height: 100%;
+    width: 15%;
     box-sizing: border-box;
 
 }
@@ -111,8 +111,8 @@ main {
     background-image: url(images/homeBeach.avif);
     background-size: 100% 100%;
     background-position: center;
-    width: 85vw;
-    height: 100vh;
+    width: 85%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -120,8 +120,8 @@ main {
 
 .text {
     box-sizing: border-box;
-    width: 36vw;
-    height: 100vh;
+    width: 40%;
+    height: 100%;
     background: linear-gradient(to right, rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
     color: #FFADAD;
     display: flex;
@@ -143,10 +143,11 @@ p {
 }
 
 
-
 aside {
     display: flex;
     flex-direction: column;
+    width: 60%;
+    height: 100%;
 }
 
 .menuIcon {
@@ -154,7 +155,7 @@ aside {
     padding: .5vw;
     border-radius: .8vw 0 0 .8vw;
     height: 100%;
-    width: 5vw;
+    width: 10%;
     box-sizing: border-box;
 }
 
@@ -170,9 +171,8 @@ aside {
 .menu {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    height: 10vh;
-    width: 49vw;
+    /* justify-content: space-between; */
+    height: 10%;
     box-sizing: border-box;
 }
 
@@ -203,7 +203,8 @@ aside {
     color: #A0C4FF;
 }
 #menuNav1:hover {
-    background-color: #efa3af;
+    /* background-color: #efa3af; */
+    background-color: #FFADAD;
     color: #171621;
 }
 #menuNav2 {
@@ -211,20 +212,23 @@ aside {
 }
 #menuNav2:hover {
     color: #171621;
-    background-color: #31c2c5;
+    /* background-color: #31c2c5; */
+    background-color: #FFADAD;
 }
 #menuNav3 {
     color: #FFC6FF;
 }
 #menuNav3:hover {
     color: #171621;
-    background-color: #eca6dd;
+    /* background-color: #eca6dd; */
+        background-color: #FFADAD;
+
 }
 
 .img1,
 .img2,
 .img3 {
-    height: 90vh;
+    height: 90%;
     width: 100%;
     background-size: cover;
     background-position: center;

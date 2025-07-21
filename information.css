@@ -122,7 +122,7 @@ main {
 
 .text {
     box-sizing: border-box;
-    width: 40vw;
+    width: 45%;
     height: 100%;
     background: linear-gradient(to right, rgba(23, 22, 33, 1), rgba(23, 22, 33, 1), rgba(23, 22, 33, .9));
     color: #FFD6A5;
@@ -136,12 +136,12 @@ main {
 }
 
 h1 {
-    font-size: 2.28vw;
-    padding-bottom: 2vw;
+    font-size: 2.16vw;
+    padding-bottom: 1.7vw;
 }
 
 p {
-    font-size: 1.3vw;
+    font-size: 1.26vw;
 }
 
 
@@ -149,6 +149,8 @@ p {
 aside {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 55%;
 }
 
 .menuIcon {
@@ -156,7 +158,7 @@ aside {
     padding: .5vw;
     border-radius: .8vw 0 0 .8vw;
     height: 100%;
-    width: 5vw;
+    width: 10%;
     box-sizing: border-box;
 }
 
@@ -172,9 +174,7 @@ aside {
 .menu {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    height: 10vh;
-    width: 45vw;
+    height: 10%;
     box-sizing: border-box;
 }
 
@@ -182,8 +182,7 @@ aside {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 89%;
-
+    width: 90%;
 }
 
 #menuNav1,
@@ -207,7 +206,8 @@ aside {
 }
 
 #menuNav1:hover {
-    background-color: #f3c093;
+    /* background-color: #f3c093; */
+    background-color: #FFD6A5;
     color: #171621;
 }
 
@@ -217,7 +217,9 @@ aside {
 
 #menuNav2:hover {
     color: #171621;
-    background-color: #fff0c5;
+    /* background-color: #fff0c5; */
+        background-color: #FFD6A5;
+
 }
 
 #menuNav3 {
@@ -226,14 +228,16 @@ aside {
 
 #menuNav3:hover {
     color: #171621;
-    background-color: #baf5d3;
+    /* background-color: #baf5d3; */
+        background-color: #FFD6A5;
+
 }
 
 .img1,
 .img2,
 .img3 {
-    height: 90vh;
-    width: 45vw;
+    height: 90%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     text-decoration: none;

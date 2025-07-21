@@ -149,6 +149,7 @@ p {
 aside {
     display: flex;
     flex-direction: column;
+    width: 78.2%;
 }
 
 .menuIcon {
@@ -156,7 +157,7 @@ aside {
     padding: .5vw;
     border-radius: .8vw 0 0 .8vw;
     height: 100%;
-    width: 5vw;
+    width: 7.5%;
     box-sizing: border-box;
 }
 
@@ -173,8 +174,6 @@ aside {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 10vh;
-    width: 66.45vw;
     box-sizing: border-box;
 }
 
@@ -182,7 +181,7 @@ aside {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 93%;
+    width: 92.5%;
 }
 
 #menuNav1,
@@ -206,7 +205,8 @@ aside {
 }
 
 #menuNav1:hover {
-    background-color: #80c856;
+    /* background-color: #80c856; */
+    background-color: #FDFFB6;
     color: #171621;
 }
 
@@ -216,7 +216,9 @@ aside {
 
 #menuNav2:hover {
     color: #171621;
-    background-color: #248dc4;
+    /* background-color: #248dc4; */
+        background-color: #FDFFB6;
+
 }
 
 #menuNav3 {
@@ -225,14 +227,16 @@ aside {
 
 #menuNav3:hover {
     color: #171621;
-    background-color: #fd9f8e;
+    /* background-color: #fd9f8e; */
+        background-color: #FDFFB6;
+
 }
 
 .img1,
 .img2,
 .img3 {
-    height: 90vh;
-    width: 66.45vw;
+    height: 90%;
+    width: 100%;
     background-size: contain;
     /* background-position: center; */
     text-decoration: none;
