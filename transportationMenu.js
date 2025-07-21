@@ -1,6 +1,7 @@
 const text = document.querySelector('.text');
 
 const menuIcon = document.querySelector('.menuIcon');
+const closeIcon = document.querySelector('.closeIcon');
 const menuNav = document.querySelector('.menuNav');
 
 const menuNav1 = document.querySelector('#menuNav1');
@@ -13,21 +14,24 @@ const img2 = document.querySelector('.img2');
 
 let menuOpen = false;
 
-menuIcon.addEventListener('click', function () {
-    menuOpen = !menuOpen;
-    if (menuOpen) {
-        menuNav.style.display = 'flex';
-        menuIcon.classList.add('menuOpenStyles');
-        text.classList.add('menuOpenStyles');
-    } else {
-        menuNav.style.display = 'none';
-        img1.style.display = 'none';
-        img2.style.display = 'none';
-        // img3.style.display = 'none';
-        menuIcon.classList.remove('menuOpenStyles');
-        text.classList.remove('menuOpenStyles');
-    }
-});
+function toggleMenu() {
+  menuOpen = !menuOpen;
+  if (menuOpen) {
+    menuNav.style.display = 'flex';
+    menuIcon.style.display = 'none';
+    closeIcon.style.display = 'block';
+    text.classList.add('menuOpenStyles');
+    closeIcon.classList.add('menuOpenStyles');
+  } else {
+    menuNav.style.display = 'none';
+    menuIcon.style.display = 'block';
+    closeIcon.style.display = 'none';
+    text.classList.remove('menuOpenStyles');
+  }
+}
+
+menuIcon.addEventListener('click', toggleMenu);
+closeIcon.addEventListener('click', toggleMenu);
 
 menuNav1.addEventListener('mouseenter', function () {
     img1.style.display = 'block';

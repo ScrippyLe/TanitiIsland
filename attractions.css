@@ -151,20 +151,21 @@ aside {
     height: 100%;
 }
 
-.menuIcon {
+.menuIcon, .closeIcon {
     background-color: #171621;
     padding: .5vw;
     border-radius: .8vw 0 0 .8vw;
     height: 100%;
-    width: 10%;
+    width: 9%;
     box-sizing: border-box;
 }
 
-.menuIcon:hover {
+.menuIcon:hover, .closeIcon:hover {
     cursor: pointer;
+    /* background-color: #FFADAD; */
 }
 
-.text.menuOpenStyles, .menuIcon.menuOpenStyles {
+.text.menuOpenStyles, .menuIcon.menuOpenStyles, .closeIcon.menuOpenStyles {
     border-radius: 0 !important;
     background-color: #171621;
 }
@@ -181,7 +182,7 @@ aside {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 90%;
+    width: 91%;
 }
 
 #menuNav1,
